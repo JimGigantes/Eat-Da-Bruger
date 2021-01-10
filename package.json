@@ -1,24 +1,27 @@
 {
-  "name": "burger",
+  "name": "eat-dah-burger",
   "version": "1.0.0",
-  "description": "Eat Da Burger homework",
-  "main": "index.js",
+  "description": "This is a project to create a web app which will be used to adjust burger names and values on a local database",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "handlebars": "^4.7.6",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "lol",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kcooper89/burger.git"
+    "url": "git+https://github.com/JimGigantes/Eat-Da-Bruger.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kcooper89/burger/issues"
+    "url": "https://github.com/JimGigantes/Eat-Da-Bruger/issues"
   },
-  "homepage": "https://github.com/kcooper89/burger#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mysql": "github:mysqljs/mysql"
-  }
+  "homepage": "https://github.com/JimGigantes/Eat-Da-Bruger#readme"
 }
