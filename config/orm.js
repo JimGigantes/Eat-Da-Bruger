@@ -48,6 +48,7 @@ var orm = {
         throw err;
       }
       cb(result);
+      
     });
   },
   create: function(table, cols, vals, cb) {
@@ -68,6 +69,7 @@ var orm = {
       }
 
       cb(result);
+      
     });
   },
   // An example of objColVals would be {name: panther, sleepy: true}
