@@ -1,9 +1,16 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-12">
+<div class="container">
+   <div class="row">
+      <div class="col-md-12 text-center" id="top-bar">
+              <img src="http://freepngimages.com/wp-content/uploads/2016/11/bacon-burger.png" height="200" class="center-block">
+            <h1 class="text-center title">Eat-Da-Burger!</h1>
+      </div>
+   </div>
 
-<h1>Burgers!</h1>
+  <br>
 
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+     
 <h2>Burgers that haven't been devoured!</h2>
 
 <ul>
@@ -13,7 +20,9 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
 
+<div class="col-md-6">
 <h2>Burgers that have been devoured!</h2>
 
 <ul>
@@ -23,8 +32,13 @@
     {{/if}}
   {{/each}}
 </ul>
-
+</div>
+</div>
+<div class="row justify-content-center">
 <h2>Add a burger</h2>
+</div>
+<div class="row justify-content-center">
+<br>
 <form class="create-form">
 
   <div class="form-group">
@@ -40,3 +54,5 @@
 
   <button type="submit">Add Burger</button>
 </form>
+</div>
+</div>
